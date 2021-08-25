@@ -30,6 +30,9 @@ export default function Sidebar(){
                             <ListGroup.Item action variant="success" className="mb-2">
                                 Zoologia
                             </ListGroup.Item>
+                            <ListGroup.Item action variant="success" className="mb-2">
+                                Alunos
+                            </ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>
