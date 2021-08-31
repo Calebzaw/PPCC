@@ -27,6 +27,14 @@ const TextArea = styled.div`
     text-indent: 2em;
     text-align: justify;
     font-family: sans-serif;
+
+    a{
+        color: #DDD;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
 `
 
 export default function Intro(){
