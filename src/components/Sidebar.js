@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Container, Col, Row, ListGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Side = styled.div`
     padding: 10px;
@@ -17,6 +18,11 @@ const Side = styled.div`
         box-shadow: 1px 1px 1px 0px #000;
         border-radius: 2px;
     }
+
+    a {
+        text-decoration: none;
+        color:inherit ;
+    }
 `;
 
 
@@ -27,18 +33,26 @@ export default function Sidebar(){
                 <Row>
                     <Col>
                         <ListGroup variant="flush">
-                            <ListGroup.Item action variant="success" className="mb-2" href="/introducao">
-                                Introdução
-                            </ListGroup.Item>
-                            <ListGroup.Item action variant="success" className="mb-2" href="/ecologia">
-                                Ecologia
-                            </ListGroup.Item>
-                            <ListGroup.Item action variant="success" className="mb-2" href="/zoologia">
-                                Zoologia
-                            </ListGroup.Item>
-                            <ListGroup.Item action variant="success" className="mb-2" href="/alunos">
-                                Alunos
-                            </ListGroup.Item>
+                            <Link to="/introducao">
+                                <ListGroup.Item action variant="success" className="mb-2">
+                                        Introdução
+                                </ListGroup.Item>
+                            </Link>
+                            <Link to="/ecologia">
+                                <ListGroup.Item action variant="success" className="mb-2">
+                                        Ecologia
+                                </ListGroup.Item>
+                            </Link>
+                            <Link to="/zoologia">
+                                <ListGroup.Item action variant="success" className="mb-2">
+                                        Zoologia
+                                </ListGroup.Item>
+                            </Link>
+                             <Link to="/alunos">
+                                <ListGroup.Item action variant="success" className="mb-2">
+                                        Alunos
+                                </ListGroup.Item>
+                            </Link>
                         </ListGroup>
                     </Col>
                 </Row>
