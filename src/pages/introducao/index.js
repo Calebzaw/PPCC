@@ -28,6 +28,24 @@ const TextArea = styled.div`
     text-align: justify;
     font-family: sans-serif;
 
+    .img{
+        display: flex;
+        p {
+            margin-top: 5px;
+        }
+
+        img {
+            height: 250px;
+            width: auto;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        .colunas{
+            flex-direction: column;
+        }
+    }
+
     a{
         color: #DDD;
 
@@ -43,18 +61,23 @@ export default function Intro(){
             <Title>INTRODUÇÃO</Title>
             <Body>
                 <TextArea>
-                    <p>
-                        A obra prima de James Cameron, Avatar, foi lançada em 2009, e até hoje mantém a maior bilheteria da história, 
-                        com mais de dois bilhões e oitocentos mil dólares. Esse dinheiro não foi recebido ao acaso; James tomou o trabalho de dirigir,
-                        escrever, produzir e editar a obra, para que ela ficasse exatamente como ele imaginou. A produção começou em 1994, 
-                        quando Cameron escreveu 80 páginas, idealizando o filme, com base em todas as obras de ficção que ele consumiu.
-                    </p>
-                    <p>
-                        É possível ver todo o carinho que o criador tem pelo trabalho e a dedicação empenhada para trazer o mundo de Pandora a vida;
-                        Cameron buscou a tecnologia mais avançada da época para parecer o mais real possível, o resultado é um espetáculo visual, 
-                        tanto que a qualidade chega a ser impressionante até mesmo para os dias de hoje. O autor comentou que queria trazer uma nova
-                        leitura dos estilos de escritores de ficção científica como <a href='https://en.m.wikipedia.org/wiki/Edgar_Rice_Burroughs'>Edgar Rice Burroughs</a>, e do japonês <a href='https://en.m.wikipedia.org/wiki/Hayao_Miyazaki'>Hayao Miyazaki.</a>
-                    </p>
+                    <div className='img'>
+                        <img src={process.env.PUBLIC_URL + "/intro.jpg"} alt={"Mundo"}/>
+                        <div className='colunas'>
+                            <p>
+                                A obra prima de James Cameron, Avatar, foi lançada em 2009, e até hoje mantém a maior bilheteria da história, 
+                                com mais de dois bilhões e oitocentos mil dólares. Esse dinheiro não foi recebido ao acaso; James tomou o trabalho de dirigir,
+                                escrever, produzir e editar a obra, para que ela ficasse exatamente como ele imaginou. A produção começou em 1994, 
+                                quando Cameron escreveu 80 páginas, idealizando o filme, com base em todas as obras de ficção que ele consumiu.
+                            </p>
+                            <p>
+                                É possível ver todo o carinho que o criador tem pelo trabalho e a dedicação empenhada para trazer o mundo de Pandora a vida;
+                                Cameron buscou a tecnologia mais avançada da época para parecer o mais real possível, o resultado é um espetáculo visual, 
+                                tanto que a qualidade chega a ser impressionante até mesmo para os dias de hoje. O autor comentou que queria trazer uma nova
+                                leitura dos estilos de escritores de ficção científica como <a href='https://en.m.wikipedia.org/wiki/Edgar_Rice_Burroughs'>Edgar Rice Burroughs</a>, e do japonês <a href='https://en.m.wikipedia.org/wiki/Hayao_Miyazaki'>Hayao Miyazaki.</a>
+                            </p>
+                        </div>
+                    </div>
                     <p>
                         O autor teve a ajuda de criadores como Wayne Barlowe e Jordu Schell para criar as imagens da cultura e características do povo
                         nativo, os Na’vi, além de contar com departamentos diferentes para o desenvolvimento de cada elemento: fauna, flora e o
