@@ -36,7 +36,7 @@ export default function Intro(){
             <Body>
                 <TextArea>
                     <p>
-                    A obra prima de James Cameron, Avatar, foi lançada em 2009, e até hoje mantém a maior bilheteria da história, 
+                        A obra prima de James Cameron, Avatar, foi lançada em 2009, e até hoje mantém a maior bilheteria da história, 
                         com mais de dois bilhões e oitocentos mil dólares. Esse dinheiro não foi recebido ao acaso; James tomou o trabalho de dirigir,
                         escrever, produzir e editar a obra, para que ela ficasse exatamente como ele imaginou. A produção começou em 1994, 
                         quando Cameron escreveu 80 páginas, idealizando o filme, com base em todas as obras de ficção que ele consumiu.
@@ -45,7 +45,7 @@ export default function Intro(){
                         É possível ver todo o carinho que o criador tem pelo trabalho e a dedicação empenhada para trazer o mundo de Pandora a vida;
                         Cameron buscou a tecnologia mais avançada da época para parecer o mais real possível, o resultado é um espetáculo visual, 
                         tanto que a qualidade chega a ser impressionante até mesmo para os dias de hoje. O autor comentou que queria trazer uma nova
-                        leitura dos estilos de escritores de ficção científica como Edgar Rice Burroughs, e do japonês Hayao Miyazaki.
+                        leitura dos estilos de escritores de ficção científica como <a href='https://en.m.wikipedia.org/wiki/Edgar_Rice_Burroughs'>Edgar Rice Burroughs</a>, e do japonês <a href='https://en.m.wikipedia.org/wiki/Hayao_Miyazaki'>Hayao Miyazaki.</a>
                     </p>
                     <p>
                         O autor teve a ajuda de criadores como Wayne Barlowe e Jordu Schell para criar as imagens da cultura e características do povo
@@ -61,7 +61,7 @@ export default function Intro(){
                         intervencionista e a tática militar de choque e terror, comumente praticada pelo exército americano.
                     </p>
                     <p>
-                        O filme possui diversos pontos positivos, com atores excelentes e uma direção impecável, o magnum opus de um homem que tem muito 
+                        O filme possui diversos pontos positivos, com atores excelentes e uma direção impecável, o im projeto singular de um homem que tem muito 
                         amor pelo projeto, e por isso despertou muito interesse e cativou diversos espectadores, dentre eles os autores desse site.
                     </p>
                     <p>
