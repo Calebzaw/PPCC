@@ -91,7 +91,7 @@ export default function Intro(){
                         intervencionista e a tática militar de choque e terror, comumente praticada pelo exército americano.
                     </p>
                     <p>
-                        O filme possui diversos pontos positivos, com atores excelentes e uma direção impecável, o im projeto singular de um homem que tem muito 
+                        O filme possui diversos pontos positivos, com atores excelentes e uma direção impecável, o projeto singular de um homem que tem muito 
                         amor pelo projeto, e por isso despertou muito interesse e cativou diversos espectadores, dentre eles os autores desse site.
                     </p>
                     <p>
