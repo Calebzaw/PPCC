@@ -9,6 +9,18 @@ export default function Routes(){
                 <Intro />
             </Route>
 
+            <Route exact path="/ecologia/pandora">
+                <Intro />
+            </Route>
+
+            <Route exact path="/ecologia/ambientacao">
+                <Intro />
+            </Route>
+
+            <Route exact path="/ecologia/relacoes">
+                <Intro />
+            </Route>
+
             <Route>
             </Route>
 

@@ -27,7 +27,6 @@ const TextArea = styled.div`
     text-indent: 2em;
     text-align: justify;
     font-family: sans-serif;
-
     .img{
         display: flex;
         p {
@@ -50,7 +49,7 @@ const TextArea = styled.div`
         color: #DDD;
 
         &:hover {
-            font-weight: bold;
+            color: #AAA;
         }
     }
 `
