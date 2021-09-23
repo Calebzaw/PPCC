@@ -1,5 +1,9 @@
 import { Switch, Route } from "react-router-dom";
 import Intro from "./pages/introducao";
+import Ambientacao from "./pages/ambientacao"
+import Pandora from "./pages/pandora"
+import Relacoes from "./pages/relacoes"
+import Alunos from "./pages/alunos"
 
 export default function Routes(){
     return(
@@ -10,15 +14,19 @@ export default function Routes(){
             </Route>
 
             <Route exact path="/ecologia/pandora">
-                <Intro />
+                <Pandora />
             </Route>
 
             <Route exact path="/ecologia/ambientacao">
-                <Intro />
+                <Ambientacao />
             </Route>
 
             <Route exact path="/ecologia/relacoes">
-                <Intro />
+                <Relacoes />
+            </Route>
+
+            <Route exact path="/alunos">
+                <Alunos />
             </Route>
 
             <Route>
