@@ -114,7 +114,7 @@ export default function Intro(){
                     </div>
                     <p>
                         Uma das principais ‘interações’ que ocorrem no filme, é o vínculo quando um dos Na’vi coloca em contato a extensão que tem no final do cabelo na estrutura similar a uma antena,
-                        de muitos dos animais de Pandora. Esse contato permite compartilhar sentimentos e até aspectos da mente entre os dois que estão 'conectados', criando uma cooperação, isto é,
+                        de muitos dos animais de Pandora. Esse contato permite compartilhar sentimentos e até aspectos da mente entre os dois que estão 'conectados', criando uma proto cooperação, isto é,
                         uma relação que beneficia os dois, mas não é necessária para a sobrevivência de cada um.
                     </p>
                     <p>
