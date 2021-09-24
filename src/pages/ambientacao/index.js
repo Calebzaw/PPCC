@@ -84,7 +84,7 @@ export default function Intro(){
                         </div>
                     </div>
                     <p>
-                        A planta Helicoradian foi inspirada em um pequeno verme marinho Spirobranchus giganteus, apelidado também de ‘Verme da árvore de Natal’ com uma média de apenas
+                        A planta Helicoradian foi inspirada em um pequeno verme marinho <a href='https://en.wikipedia.org/wiki/Spirobranchus_giganteus'>Spirobranchus giganteus</a>, apelidado também de ‘Verme da árvore de Natal’ com uma média de apenas
                         3.8 cm, e possui comportamento extremamente similar à planta do Avatar. Há também plantas características que se destacam pelo misticismo atrás deles, que, 
                         como mencionado na seção do planeta, não será trabalhado aqui. E a outra espécie que também se sobressai, é a árvore que os nativos do clã Omaticaya utilizam para abrigo. 
                     </p>
