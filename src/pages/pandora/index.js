@@ -91,7 +91,7 @@ export default function Intro(){
                     </div>
                     <p>
                         Com menor gravidade e maior resistência do ar, objetos em queda livre tem uma aceleração menor, caindo mais lentamente que na Terra, fazendo com que quedas 
-                        de longas distâncias não sejam tão perigosas quanto seriam na nossa atmosfera
+                        de longas distâncias não sejam tão perigosas quanto seriam na nossa atmosfera.
                     </p>
                     <p>
                         Uma atmosfera mais densa faz com que seja mais difícil se mover, como se houvesse um vento forte tentando te desacelerar, por conta disso, muitos animais
