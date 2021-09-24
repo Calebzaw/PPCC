@@ -76,7 +76,7 @@ export default function Intro(){
                                 da terra com mais cores e proporções maiores.
                             </p>
                             <p>
-                                A pessoa responsável pela flora vista na obra foi criada pela professora Jodie Holt, da Universidade da Califórnia, ela menciona que dentro do universo
+                                A pessoa responsável pela flora vista na obra foi criada pela professora <a href='https://faculty.ucr.edu/~jsh123/drjodieholt.html'>Jodie Holt<a>, da Universidade da Califórnia, ela menciona que dentro do universo
                                 fictício as plantas são maiores graças à maior densidade atmosférica, gravidade mais leve e ao magnetismo no satélite. A planta mais marcante seria a
                                 planta espiralada que foi chamada de Helicoradian, sua forma se dá a suas folhas vermelhas, que sobem de 3 à 4 metros, que quando tocadas se retraem 
                                 em uma pequena base.
