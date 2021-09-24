@@ -99,11 +99,11 @@ export default function Intro(){
                         robóticas que eles pilotam.
                     </p>
                     <p>
-                        As espécies voadoras usam da maior densidade para voar, sendo mais fácil de permanecer no ar por conta da resistência que o planeta exerce, fazendo que cada bater
+                        As espécies voadoras usam da maior densidade para voar, sendo mais fácil de permanecer no ar por conta da resistência que o astro exerce, fazendo que cada bater
                         de asas tenha uma força de propulsão maior, porém também foi necessário uma adaptação aerodinâmica para ‘perfurar’ o ar e se mover melhor.
                     </p>
                     <p>
-                        Os ventos também são mais fortes no planeta, graças a densidade, objetos levados ao vento tem mais dificuldade em parar, e para isso as plantas tiveram de 
+                        Os ventos também são mais fortes em Pandora, graças a densidade, objetos levados ao vento tem mais dificuldade em parar, e para isso as plantas tiveram de 
                         se desenvolver para aguentar essas forças maiores, gerando troncos e galhos mais resistentes para aguentar, ou mais flexíveis para não quebrarem.
                     </p>
                     <div className="img">
@@ -119,11 +119,11 @@ export default function Intro(){
                     </p>
                     <p>
                         Os biomas de Pandora se estendem de florestas exuberantes, montanhas flutuantes, planícies e vastos oceanos, com flora diversificada e até mesmo um
-                        certo misticismo com a natureza, o que não vai ser tratado neste trabalho. O planeta também é rico de um material fictício chamado de Unobtanium,
-                        um mineral supercondutor. Cada kilograma não refinado tem o valor vinte milhões de dólares, o que justificou a exploração e viagens até o planeta.
+                        certo misticismo com a natureza, o que não vai ser tratado neste trabalho. O satélite também é rico de um material fictício chamado de Unobtanium,
+                        um mineral supercondutor. Cada kilograma não refinado tem o valor vinte milhões de dólares, o que justificou a exploração e viagens até Pandora.
                     </p>
                     <p>
-                        No mundo criado por James Cameron, Pandora seria o primeiro planeta fora do sistema solar a ser encontrado vida inteligente, além de criaturas e
+                        No mundo criado por James Cameron, Pandora seria o primeiro astro fora do sistema solar a ser encontrado vida inteligente, além de criaturas e
                         plantas presentes apenas na imaginação dos seres humanos. Mesmo tendo diversas similaridades com nosso lar, ele ainda é único e extremamente diferente. 
                     </p>
                 </TextArea>
