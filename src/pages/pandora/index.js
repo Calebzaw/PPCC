@@ -34,6 +34,7 @@ const TextArea = styled.div`
         }
 
         .align {
+            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
