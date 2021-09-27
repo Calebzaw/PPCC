@@ -84,7 +84,7 @@ export default function Intro(){
                         </li>
                         <li>
                             Bruna Silva Machado
-                            (Ecologia)
+                            (Ecologia, Zoologia)
                         </li>
                         <li>
                             Gabriel Corrêa Dal Farra
