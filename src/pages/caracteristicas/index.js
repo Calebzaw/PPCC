@@ -108,6 +108,8 @@ const TextArea = styled.div`
 
                 img {
                     margin-bottom: 10px;
+                    max-width: 150px;
+                    max-height: 150px;
                 }
 
                 ul {
