@@ -96,11 +96,37 @@ export default function Sidebar(){
                                 </Card>
                             </ListGroup.Item>
                             </Accordion>
-                            <Link to="/zoologia">
-                                <ListGroup.Item action variant="success" className="mb-2">
-                                        Zoologia
-                                </ListGroup.Item>
-                            </Link>
+                            <Accordion>
+                            <ListGroup.Item action variant="success" className="mb-2">
+                                <Card>
+                                    <Card.Header>
+                                        <Accordion.Toggle as={ListGroup} variant="success" eventKey="1">
+                                            Zoologia
+                                        </Accordion.Toggle>
+                                    </Card.Header>
+
+                                    <Accordion.Collapse eventKey="1">
+                                        <div>
+                                            <Link to='/zoologia/adaptacao'>
+                                                <ListGroup.Item action variant="success" className="mb-2">
+                                                    Adaptação e Morfologia
+                                                </ListGroup.Item>
+                                            </Link>
+                                            <Link to='/zoologia/caracteristicas'>
+                                                <ListGroup.Item action variant="success" className="mb-2">
+                                                    Características
+                                                </ListGroup.Item>
+                                            </Link>
+                                            <Link to='/zoologia/navi'>
+                                                <ListGroup.Item action variant="success" className="mb-2">
+                                                    Na'vi
+                                                </ListGroup.Item>
+                                            </Link>
+                                        </div>
+                                    </Accordion.Collapse>
+                                </Card>
+                            </ListGroup.Item>
+                            </Accordion>
                             <Link to="/alunos">
                                 <ListGroup.Item action variant="success" className="mb-2">
                                         Alunos
