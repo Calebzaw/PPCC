@@ -27,6 +27,39 @@ const TextArea = styled.div`
     text-indent: 2em;
     text-align: justify;
     font-family: sans-serif;
+    
+    .imgs {
+        display: flex;
+
+        .align {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 5px 10px;
+
+                span {
+                    align-items: center;
+                    align-content: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                    text-indent: 0
+                }
+                img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
     .img{
         display: flex;
         p {
@@ -146,9 +179,28 @@ export default function Intro(){
                         todos seriam do filo 'chordata', contudo, como não sabemos como funciona a reprodução de todas essas espécies, pularemos essa parte na
                         classificação.
                     </p>
-                    <div className="img">
+                    <div className="imgs">
                         <div className="align">
-                            <img className="align" src={process.env.PUBLIC_URL + "/lista.png"} alt="terra"/>
+                            <div>
+                                <span>[P. Paquidermes] </span>
+                                <img src={process.env.PUBLIC_URL + "/l1.png"} alt="terra"/>
+                            </div>
+                            <div>
+                                <span>[P. Equídeos] </span>
+                                <img src={process.env.PUBLIC_URL + "/l2.png"} alt="terra"/>
+                            </div>
+                            <div>
+                                <span> [P. Hominídeos] </span>
+                                <img src={process.env.PUBLIC_URL + "/l3.png"} alt="terra"/>
+                            </div>
+                            <div>
+                                <span> [P. Canifelineos]  </span>
+                                <img src={process.env.PUBLIC_URL + "/l4.png"} alt="terra"/>
+                            </div>
+                            <div>
+                                <span> [Pseudo Pterossauros] </span>
+                                <img src={process.env.PUBLIC_URL + "/l5.png"} alt="terra"/>
+                            </div>
                         </div>
                     </div>
                     <p>
